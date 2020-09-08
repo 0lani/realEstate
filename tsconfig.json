@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es5",
+    "module": "es6",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "jsx": "react",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "strictFunctionTypes": false,
+    "preserveConstEnums": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": false,
+    "lib": [
+      "es6",
+      "dom",
+      "es2015.promise" 
+    ],
+    "paths": {
+      "baseCss": ["src/resources/css/index.css"],
+      "images": ["src/resources/images"],
+      "Components": ["src/Components"],
+      "NavBar": ["src/Components/NavBar"], 
+      "Hero": ["src/Components/Hero"], 
+      "Featured": ["src/Components/Featured"], 
+    }
+  },
+  "include": [
+    "src",
+    "src/**/*.js",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "@types/**/*.d.ts",
+    "typings/**/*.d.ts",
+  ],
+  "exclude": [
+    "node_modules",
+  ],
+}
+
