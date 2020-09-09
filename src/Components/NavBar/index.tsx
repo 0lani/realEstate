@@ -41,13 +41,13 @@ const NavBar: FC = (): ReactElement => {
   return (
     <header className="w-screen z-10 bg-opacity-0 fixed">
       <nav className="container mx-auto flex md:justify-between mt-8">
-        <div className="inline ml-4 md:ml-0 text-2xl text-white tracking-normal">
+        <div className="inline ml-4 lg:ml-0 text-2xl text-white tracking-normal">
           <span className="font-display mr-2 font-bold">{logo[0]}</span><span className="text-2xl">{logo[1]}</span>
         </div>
         {
          mobileMenuButton
         }
-        <ul className="hidden md:flex md:flex-row" id="mobileMenu" ref={menuEl}>
+        <ul className="hidden md:flex md:flex-row md:p-2 lg:p-0" id="mobileMenu" ref={menuEl}>
           {menuItems.map((item) => {
             return (
               <li key={item} 

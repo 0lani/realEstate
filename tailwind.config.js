@@ -31,11 +31,18 @@ module.exports = {
         hrLine: '8vw',
         'hrLine-mobile': '17vw',
         '22': '22vw',
-        description: '30vw'
+        description: '30vw',
+        '50': '50vw',
+        '61': '61vw',
+        '90': '90%'
+      },
+      maxWidth: {
+        '60': '60%'
       },
       height: {
         '1h': '1vh',
         hrLine: '2vh',
+        '20': '20vh',
         fImg: '30vh',
         '50': '50vh',
         cImg: '67.5vh',
@@ -55,6 +62,7 @@ module.exports = {
         '45': '45%'
       },
       backgroundPosition: {
+        'tablet-center-hero': '51% 13%;',
         'center-hero': '54% 13%',
         'mobile-center-hero': '51% 8%'
       },

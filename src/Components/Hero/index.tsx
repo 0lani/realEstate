@@ -4,8 +4,8 @@ import data from './heroData';
 const Hero: FC = ():ReactElement => {
   const {p1, p2, p3, button} = data;
   return (
-    <section className="clip-hero w-screen h-super z-0 bg-hero bg-mobile-center-hero md:bg-center-hero md:relative md:mb-20">
-      <div className="absolute w-full top-45 left-0 md:w-6/12 md:top-34 md:left-24">
+    <section className="clip-hero w-screen h-super z-0 bg-hero bg-mobile-center-hero md:bg-tablet-center-hero md:relative md:mb-20 lg:bg-center-hero">
+      <div className="absolute w-full top-45 left-0 md:w-full md:top-34 lg:w-6/12 lg:left-24">
         <div className="w-full flex flex-col text-center">
           <p className="text-base text-white md:text-2xlC">{p1}</p>
 

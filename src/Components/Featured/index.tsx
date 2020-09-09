@@ -24,7 +24,7 @@ const Featured: FC = (): ReactElement => {
   const imgArray: string[] = [img1, img2, img3];
 
   return (
-    <section className="w-screen h-screen flex flex-col md:mb-48">
+    <section className="flex flex-col w-screen mb-8 md:h-screen md:mb-0 lg:mb-48">
       <header className="mx-auto text-center text-base mb-12 text-gray-600 mt-12 md:mt-0">
         <p className="mb-4 text-xl">{location}</p>
         <p className="text-4xl">
@@ -34,7 +34,7 @@ const Featured: FC = (): ReactElement => {
 
       <hr className="mx-auto bg-blue-700 border-blue-700 mb-20 h-hrLine w-hrLine-mobile border-t-19 md:w-hrLine md:border-t-0"/>
       
-      <article className="mx-auto flex justify-between flex-col md:flex-row">
+      <article className="mx-auto flex justify-between flex-col md:flex-row md:ml-3 lg:mx-auto lg:my-0">
         {
           homesArray.map((listing: listingTypes, index: number) => {
             const {
@@ -50,11 +50,11 @@ const Featured: FC = (): ReactElement => {
 
             return (
               <React.Fragment>
-                <div className="flex flex-col text-center mx-auto mb-12 md:mb-0 md:mr-8 bxshdw ">
-                  <img src={imgArray[index]} alt="photo of home listing" className="h-fImg mb-6"/>
+                <div className="flex flex-col text-center mx-auto mb-12 w-90 md:w-full md:mb-0 md:mr-3 lg:mr-8 bxshdw ">
+                  <img src={imgArray[index]} alt="photo of home listing" className="md:h-20 lg:h-fImg mb-6"/>
 
                   <div className="text-center mb-8">
-                    <p className="mb-6">{address}</p>
+                    <p className="mb-6 md:p-3 lg:p-0">{address}</p>
                     <p className="mb-4 font-display font-bold">{price}</p>
                     <p className="mb-8 flex justify-evenly font-bold">
                       <span className="icon-feat"><img className="mr-2" src={icon1} alt="bed icon"/>{" "}{room}</span> 
