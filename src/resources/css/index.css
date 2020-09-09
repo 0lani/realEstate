@@ -1,7 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import "react-slideshow-image/dist/styles.css";
+/* extended base styles */
 @layer base {
   @font-face {
     font-family: Raleway;
@@ -23,7 +24,6 @@
     font-weight: 700;
     src: url(../fonts/RobotoCondensed-Bold.ttf) format("tff");
   }
-
   :root {
     @apply font-body;
     @apply font-light;
@@ -44,7 +44,21 @@
   width: 39vw;
   height: 2vh;
 }
-
+/* slide show */
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+}
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+/* responsive styling */
 @media screen and (min-width: 768px){
   /* hero bg image downward chevron */
   .clip-hero {

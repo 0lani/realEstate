@@ -20,6 +20,7 @@
     "react-dom": "^16.6.3",
     "react-hot-loader": "^4.12.21",
     "react-router-dom": "^5.2.0",
+    "react-slideshow-image": "^3.2.0",
     "react-spring": "^8.0.27",
     "react-visibility-sensor": "^5.1.1",
     "tailwindcss": "^1.8.2"
