@@ -29,13 +29,31 @@
     @apply font-light;
   }
 }
-
+/* featured homes */
 .bxshdw {
   box-shadow: 6px 5px 13px gray;
 }
+/* featured homes description icons */
+.icon-feat {
+  display: inline-flex;
+  width: 2vw;
+  height: 2vh;
+}
+.special-icon-feat {
+  display: inline-flex;
+  width: 39vw;
+  height: 2vh;
+}
 
 @media screen and (min-width: 768px){
+  /* hero bg image downward chevron */
   .clip-hero {
     clip-path: polygon(0px 0px, 100% 0px, 100% 30%, 99.74% 91.19%, 48.99% 99.71%, 48.94% 99.71%, 1px 91.61%, 0px 30%);
+  }
+  /* featured homes description icons */
+  .special-icon-feat {
+    display: inline-flex;
+    width: 7vw;
+    height: 2vh;
   }
 }

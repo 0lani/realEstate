@@ -26,6 +26,7 @@
     "paths": {
       "baseCss": ["src/resources/css/index.css"],
       "images": ["src/resources/images"],
+      "icons": ["src/resources/icons"],
       "Components": ["src/Components"],
       "NavBar": ["src/Components/NavBar"], 
       "Hero": ["src/Components/Hero"], 

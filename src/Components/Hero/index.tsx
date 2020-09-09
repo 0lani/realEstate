@@ -10,7 +10,7 @@ const Hero: FC = () => {
           <p className="text-base text-white md:text-2xlC">{p1}</p>
 
           <p className="text-white text-2xlC md:text-3xlC">{p2}</p>
-          <p className="font-display text-white font-bold 2xlCM mb-4 md:text-5xlC md:mb-0">{p3}</p>
+          <p className="font-display text-white font-bold text-2xlCM mb-4 md:text-5xlC md:mb-0">{p3}</p>
 
           <button 
             className=" m-auto text-lg text-white border border-white border-solid hover:bg-indigo-400 active:bg-indigo-400 w-40 h-12 md:w-48"

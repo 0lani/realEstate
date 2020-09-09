@@ -47,6 +47,7 @@ module.exports = ({ mode } = {
         baseCss: path.resolve(__dirname, 'src', 'resources', 'css', 'index.css'),
         images: path.resolve(__dirname, 'src', 'resources', 'images'),
         icons: path.resolve(__dirname, 'src', 'resources', 'icons'),
+        icons: path.resolve(__dirname, 'src', 'resources', 'icons'),
         Components: path.resolve(__dirname, 'src', 'Components'),
         NavBar: path.resolve(__dirname, 'src', 'Components', 'NavBar'),
         Hero: path.resolve(__dirname, 'src', 'Components', 'Hero'),

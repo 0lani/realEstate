@@ -27,7 +27,8 @@ module.exports = {
         'hero': "url('../images/intro-bg.png')",
       }),
       width: {
-        hrLine: '8vw'
+        hrLine: '8vw',
+        'hrLine-mobile': '17vw'
       },
       height: {
         hrLine: '2vh',
@@ -54,6 +55,9 @@ module.exports = {
         '2xlCM': '2.5rem',
         '3xlC': '4rem',
         '5xlC': '5rem'
+      },
+      borderWidth: {
+        '19': '19px'
       },
     },
   }
