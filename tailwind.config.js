@@ -27,12 +27,18 @@ module.exports = {
         'hero': "url('../images/intro-bg.png')",
       }),
       width: {
+        '4w': '4vw',
         hrLine: '8vw',
-        'hrLine-mobile': '17vw'
+        'hrLine-mobile': '17vw',
+        '22': '22vw',
+        description: '30vw'
       },
       height: {
+        '1h': '1vh',
         hrLine: '2vh',
         fImg: '30vh',
+        '50': '50vh',
+        cImg: '67.5vh',
         super: '110vh',
         
       },
@@ -42,6 +48,8 @@ module.exports = {
       },
       inset: {
         '0': '0',
+        '5': '5%',
+        '12': '12%',
         '24': '24%',
         '34': '34%',
         '45': '45%'
@@ -51,6 +59,7 @@ module.exports = {
         'mobile-center-hero': '51% 8%'
       },
       fontSize: {
+        '1xlC': '1.3rem',
         '2xlC': '2rem',
         '2xlCM': '2.5rem',
         '3xlC': '4rem',

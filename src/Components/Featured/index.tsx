@@ -1,4 +1,4 @@
-import React, {FC} from 'react';
+import React, { FC, ReactElement } from 'react';
 import data from './featuredData';
 import img1 from 'images/ft-homes1.png';
 import img2 from 'images/ft-homes2.png';
@@ -9,7 +9,7 @@ import icon3 from 'icons/home-solid.png';
 
 type listingTypes = {address:string, price: string, homeInfo: {room: number, bath:number, size: string, unit: string}, homeLink: {linkTitle: string, link: string}};
 
-const Featured: FC = () => {
+const Featured: FC = (): ReactElement => {
   const {
     location,
     title,
@@ -24,7 +24,7 @@ const Featured: FC = () => {
   const imgArray: string[] = [img1, img2, img3];
 
   return (
-    <section className="w-screen h-screen flex flex-col">
+    <section className="w-screen h-screen flex flex-col md:mb-48">
       <header className="mx-auto text-center text-base mb-12 text-gray-600 mt-12 md:mt-0">
         <p className="mb-4 text-xl">{location}</p>
         <p className="text-4xl">
@@ -61,7 +61,7 @@ const Featured: FC = () => {
                       <span className="icon-feat"><img className="mr-2" src={icon2} alt="bathtub icon"/>{" "}{bath}</span> 
                       <span className="special-icon-feat"><img className="mr-2" src={icon3} alt="home icon"/>{" "}{size}{" "}{unit}</span>
                     </p >
-                    <a className="underline text-blue-700" href={link}>{linkTitle}</a>
+                    <a className="underline text-blue-700 font-bold" href={link}>{linkTitle}</a>
                   </div>
                 </div>
               </React.Fragment>

@@ -1,7 +1,7 @@
-import React, {FC} from 'react';
+import React, { FC, ReactElement } from 'react';
 import data from './heroData';
 
-const Hero: FC = () => {
+const Hero: FC = ():ReactElement => {
   const {p1, p2, p3, button} = data;
   return (
     <section className="clip-hero w-screen h-super z-0 bg-hero bg-mobile-center-hero md:bg-center-hero md:relative md:mb-20">

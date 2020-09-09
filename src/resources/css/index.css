@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "react-slideshow-image/dist/styles.css";
+
 /* extended base styles */
 @layer base {
   @font-face {

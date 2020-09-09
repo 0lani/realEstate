@@ -1,7 +1,7 @@
-import React, {FC, useRef, useState} from 'react';
+import React, { FC, useRef, useState, ReactElement } from 'react';
 import data from './navData';
 
-const NavBar: FC = () => {
+const NavBar: FC = (): ReactElement => {
   const menuEl = useRef(undefined);
   const intialState: {open?: boolean} = {open: false}
   const [mobileState, setCheck] = useState(intialState)
