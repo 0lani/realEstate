@@ -32,15 +32,19 @@
       "Hero": ["src/Components/Hero"], 
       "Featured": ["src/Components/Featured"], 
       "Contact": ["src/Components/Contact"], 
-    }
+      "Testimonials": ["src/Components/Testimonials"], 
+    },
+    "typeRoots": [
+      "./typings"
+    ],
   },
   "include": [
     "src",
     "src/**/*.js",
     "src/**/*.ts",
     "src/**/*.tsx",
-    "@types/**/*.d.ts",
-    "typings/**/*.d.ts",
+    "node_modules/@types/**/*.d.ts",
+    "typings/**/*.d.ts"
   ],
   "exclude": [
     "node_modules",

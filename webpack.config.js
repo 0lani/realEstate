@@ -52,6 +52,7 @@ module.exports = ({ mode } = {
         Hero: path.resolve(__dirname, 'src', 'Components', 'Hero'),
         Featured: path.resolve(__dirname, 'src', 'Components', 'Featured'),
         Contact: path.resolve(__dirname, 'src', 'Components', 'Contact'),
+        Testimonials: path.resolve(__dirname, 'src', 'Components', 'Testimonials'),
       },
       extensions: ['.webpack.js', '.web.js','.js', '.json', '.ts', '.tsx', '.less']
     },

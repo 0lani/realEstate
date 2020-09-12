@@ -50,7 +50,7 @@ const Featured: FC = (): ReactElement => {
 
             return (
               <React.Fragment>
-                <div className="flex flex-col text-center mx-auto mb-12 w-90 md:w-full md:mb-0 md:mr-3 lg:mr-8 bxshdw ">
+                <div key={index} className="flex flex-col text-center mx-auto mb-12 w-90 md:w-full md:mb-0 md:mr-3 lg:mr-8 bxshdw ">
                   <img src={imgArray[index]} alt="photo of home listing" className="md:h-20 lg:h-fImg mb-6"/>
 
                   <div className="text-center mb-8">

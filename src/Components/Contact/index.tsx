@@ -5,7 +5,7 @@ import img from 'images/agent.png';
 const Contact: FC = ():ReactElement => {
   const {title, subTitle, description, button} = data;
   return (
-    <section className="w-screen md:h-screen flex flex-col md:flex-row md:mb-40">
+    <section className="w-screen md:h-screen flex flex-col md:flex-row">
       <div className="relative md:absolute lg:left-12">
         <img src={img} alt="photo of real estate agent, alden casas" className="md:max-w-60 lg:max-w-none"/>
       </div>

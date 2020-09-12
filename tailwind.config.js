@@ -32,6 +32,7 @@ module.exports = {
         'hrLine-mobile': '17vw',
         '22': '22vw',
         description: '30vw',
+        '36': '36vw',
         '50': '50vw',
         '61': '61vw',
         '90': '90%'
@@ -45,7 +46,9 @@ module.exports = {
         '20': '20vh',
         fImg: '30vh',
         '50': '50vh',
+        '60': '60vh',
         cImg: '67.5vh',
+        '90': '90vh',
         super: '110vh',
         
       },
@@ -58,6 +61,7 @@ module.exports = {
         '5': '5%',
         '12': '12%',
         '24': '24%',
+        '31': '31%',
         '34': '34%',
         '45': '45%'
       },
@@ -72,6 +76,9 @@ module.exports = {
         '2xlCM': '2.5rem',
         '3xlC': '4rem',
         '5xlC': '5rem'
+      },
+      textColor: {
+        goldS: '#95950c'
       },
       borderWidth: {
         '19': '19px'

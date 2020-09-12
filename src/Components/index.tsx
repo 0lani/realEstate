@@ -3,6 +3,7 @@ import NavBar from 'NavBar';
 import Hero from 'Hero';
 import Featured from 'Featured';
 import Contact from 'Contact';
+import Testimonials from 'Testimonials'
 
 
 const App: FC = (): ReactElement => {
@@ -12,6 +13,7 @@ const App: FC = (): ReactElement => {
         <Hero/>
         <Featured/>
         <Contact/>
+        <Testimonials/>
     </React.Fragment>
   )
 }

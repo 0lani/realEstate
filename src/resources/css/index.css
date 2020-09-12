@@ -44,19 +44,22 @@
   width: 39vw;
   height: 2vh;
 }
-/* slide show */
-.each-slide > div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: cover;
-  height: 350px;
+/* slideshow */
+.react-slideshow-container {
+  width: 60vw !important;
 }
-.each-slide span {
-  padding: 20px;
-  font-size: 20px;
-  background: #efefef;
-  text-align: center;
+.react-slideshow-fade-wrapper {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  height: 23vh;
+}
+.react-slideshow-fade-images-wrap {
+  width: 36vw !important;
+}
+.react-slideshow-fade-images-wrap > div {
+  width: 36vw !important;
 }
 /* responsive styling */
 @media screen and (min-width: 768px){
